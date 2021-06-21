@@ -9,6 +9,25 @@
     
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <style>
+        
+        .iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9*/
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+        
+    </style>
 
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="favicon.png" type="image/png">
@@ -214,7 +233,12 @@
                             </div>
                         </div>
                         <div class="features-content">
-                            <iframe src="https://chat-forms.com/forms/1623976062887-mvd?form&amp;embedded=true" width="640" height="1065" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                            <div class="iframe-container">
+  <iframe width="640" height="1065" src=""https://chat-forms.com/forms/1623976062887-mvd?form&amp;embedded=true"" frameborder="0" marginheight="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" loading="lazy" allowfullscreen>
+    
+    Loading…
+  </iframe>
+</div>
                             <a class="features-btn" href="#">LEARN MORE</a>
                         </div>
                     </div> <!-- single features -->
